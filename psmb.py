@@ -153,6 +153,5 @@ else:
 
 #write changes to config file
 config = open(HOME + "/.psmb.conf","w")
-cfglines = [SMB_SSID,prevSSID]
 print(SMB_SSID + "\n" + prevSSID, file=config)
 config.close()
