@@ -1,7 +1,7 @@
 # PSMB
 Since the SMB1 protocol is now deprecated (for security reasons), there's some annoying setting up to be done every time you want to start an SMB server for use with PS2 OPL if you want to keep your server computer safe. This script aims to automate the process as much as possible.
 
-(this script only works on Linux using NetworkManager and requires and already functioning SMB server setup.)
+(this script only works on Linux using NetworkManager and requires an already functioning SMB server setup.)
 
 ## How it works:
 For my setup, I'm using a separate LAN with no access to the internet solely for the SMB sharing with the PS2. This script is intended for a similar use case.
